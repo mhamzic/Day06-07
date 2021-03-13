@@ -4,19 +4,29 @@ body {
 
 .container {
   margin: auto;
-  width: 60%;
+  width: 80%;
   text-align: center;
 }
 
+/* Flexbox */
+
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3%;
 }
 
-.grid-container img {
-  width: 300px;
+.item {
+  width: 27%;
+  margin-bottom: 3rem;
 }
+
+.item img {
+  width: 100%;
+}
+
+/* Some styling */
 
 .grid-container p {
   text-align: justify;
