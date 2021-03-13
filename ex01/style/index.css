@@ -1,0 +1,32 @@
+body {
+  font-family: "Nunito", "sans-serif";
+}
+
+.container {
+  margin: auto;
+  width: 60%;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+}
+
+.grid-container img {
+  width: 300px;
+}
+
+.grid-container p {
+  text-align: justify;
+}
+
+.grid-container h4 {
+  text-align: left;
+  color: aqua;
+}
+
+.container h2 {
+  color: brown;
+}
